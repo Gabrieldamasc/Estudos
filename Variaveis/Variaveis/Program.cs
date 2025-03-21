@@ -6,41 +6,49 @@ using System.Threading.Tasks;
 
 namespace Variaveis
 {
+    enum notas
+    {
+        minima,
+        media,
+        maxima
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region números integrais
-            int numero;
-            numero = 100;
+            //#region números integrais
+            //int numero;
+            //numero = 100;
 
-            numero = 120;
-            #endregion
+            //numero = 120;
+            //#endregion
 
-            #region números decimais
-            double num1;
+            //#region números decimais
+            //double num1;
 
-            num1 = 100.32;
-            #endregion
+            //num1 = 100.32;
+            //#endregion
 
-            #region Char
+            //#region Char
 
-            char letra = 'g';
+            //char letra = 'g';
 
+            //#endregion
 
-            #endregion
+            //#region Boolean
+            //bool verificar;
+            //verificar = false;
+            //#endregion
 
-            #region Boolean
-            bool verificar;
-            verificar = false;
-            #endregion
+            //#region String
+            //string nome;
+            //nome = Console.ReadLine();
+            //#endregion
 
-            #region String
-            string nome;
-            nome = Console.ReadLine();
-            #endregion
+            notas notaAluno = notas.media;
+            notaAluno = 
 
-            Console.WriteLine("Seu nome é: " + nome);
+            Console.WriteLine("Seu nome é: ");
             Console.ReadKey();
         }
     }
