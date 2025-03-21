@@ -10,12 +10,27 @@ namespace Variaveis
     {
         static void Main(string[] args)
         {
+            #region números integrais
             int numero;
             numero = 100;
 
             numero = 120;
+            #endregion
 
-            Console.WriteLine(numero);
+            #region números decimais
+            double num1;
+
+            num1 = 100.32;
+            #endregion
+
+            #region Char
+
+            char letra = 'g';
+
+
+            #endregion
+
+            Console.WriteLine(letra);
             Console.ReadKey();
         }
     }
