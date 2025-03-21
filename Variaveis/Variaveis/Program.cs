@@ -30,7 +30,17 @@ namespace Variaveis
 
             #endregion
 
-            Console.WriteLine(letra);
+            #region Boolean
+            bool verificar;
+            verificar = false;
+            #endregion
+
+            #region String
+            string nome;
+            nome = Console.ReadLine();
+            #endregion
+
+            Console.WriteLine("Seu nome é: " + nome);
             Console.ReadKey();
         }
     }
