@@ -10,6 +10,13 @@ namespace Variaveis
     {
         static void Main(string[] args)
         {
+            int numero;
+            numero = 100;
+
+            numero = 120;
+
+            Console.WriteLine(numero);
+            Console.ReadKey();
         }
     }
 }
