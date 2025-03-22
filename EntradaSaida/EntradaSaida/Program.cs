@@ -10,6 +10,12 @@ namespace EntradaSaida
     {
         static void Main(string[] args)
         {
+            int r1 = Console.Read();
+
+            int r2 = Console.ReadKey().KeyChar;
+
+            Console.WriteLine("r1: " + r1);
+            Console.WriteLine("r2: " + r2);
         }
     }
 }
