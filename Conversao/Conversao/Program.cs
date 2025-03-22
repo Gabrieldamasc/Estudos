@@ -92,10 +92,6 @@ namespace Conversao
             int ac = 10;
             string ad = ac.ToString();
             Console.WriteLine(ad);
-
-            // Conversão de tipos com Format
-            int ae = 10;
-            string af =
         }
     }
 }
