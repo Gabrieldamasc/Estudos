@@ -62,6 +62,9 @@ namespace ConversorDeTemperatura
                     double resultadoF = (tempKelvin2 - 273.15) * 1.8 + 32;
                     Console.WriteLine("A temperatura em Fahrenheit é: " + resultadoF);
                     break;
+                default:
+                    Console.WriteLine("Opção inválida, tente novamente!");
+                    break;
             }
         }
     }
