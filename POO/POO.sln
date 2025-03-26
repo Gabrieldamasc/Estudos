@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesObjetos", "POO\ClassesObjetos.csproj", "{B6C9D9A1-BB68-464A-8DF6-C7B1C0717B06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosDasClasses", "MetodosDasClasses\MetodosDasClasses.csproj", "{625FC1F6-48A7-46E9-9F60-585C52DA9DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoDelegate", "TipoDelegate\TipoDelegate.csproj", "{6778E705-30C9-42AE-9EA4-D9E46AC20ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodoConstrutor", "MetodoConstrutor\MetodoConstrutor.csproj", "{2D9389A4-0A1F-40A1-A25E-A57DA07FC8CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{625FC1F6-48A7-46E9-9F60-585C52DA9DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625FC1F6-48A7-46E9-9F60-585C52DA9DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625FC1F6-48A7-46E9-9F60-585C52DA9DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6778E705-30C9-42AE-9EA4-D9E46AC20ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6778E705-30C9-42AE-9EA4-D9E46AC20ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6778E705-30C9-42AE-9EA4-D9E46AC20ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6778E705-30C9-42AE-9EA4-D9E46AC20ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9389A4-0A1F-40A1-A25E-A57DA07FC8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9389A4-0A1F-40A1-A25E-A57DA07FC8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9389A4-0A1F-40A1-A25E-A57DA07FC8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9389A4-0A1F-40A1-A25E-A57DA07FC8CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
