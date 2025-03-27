@@ -15,6 +15,7 @@ namespace Proptiedades
             p1.Idade = int.Parse(Console.ReadLine());
             p1.Nome = Console.ReadLine();
 
+
             Console.WriteLine("Seu nome é: " + p1.Nome + " e você tem " + p1.Idade + " anos");
 
         }
