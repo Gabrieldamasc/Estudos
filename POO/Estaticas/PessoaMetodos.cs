@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Estaticas
 {
-    internal class Pessoa
+    partial class Pessoa
     {
-        public static int maioridade = 18;
-        public int idade;
-        public string nome;
-
         public Pessoa(string nome)
         {
             this.nome = nome;
@@ -26,6 +22,5 @@ namespace Estaticas
         {
             Console.WriteLine("Olá eu sou o " + nome);
         }
-
     }
 }
